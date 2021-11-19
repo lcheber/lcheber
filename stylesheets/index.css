@@ -1,0 +1,417 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    background-color: #284B63;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+nav {
+    display: flex;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+
+/* TITLE */
+
+h1 {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* INTRODUCTION */
+
+.cream {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.years {
+    margin-left: 47px;
+    margin-right: 143px
+}
+
+.cream div p {
+    color: gray;
+}
+
+#cream {
+    width: 554px;
+}
+
+#round, #macarons {
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+/* NEWSLETTER */
+
+.newsletter {
+    height: 182px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter div {
+    padding: 10px;
+}
+
+button {
+    background-color: #FDF3DB;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F2CB6C;
+    border-radius: 4px;
+    padding: 12px 18px;
+}
+
+/* PASTRIES */
+
+.signature {
+    padding: 47px;
+}
+
+.pastries {
+    display: flex;
+}
+
+.pastries div {
+    margin-right: 96px;
+}
+
+.pastries div div p {
+    color: gray;
+}
+
+/* INTERVIEW */
+
+.interview_title {
+    background-color: #F4F4F4;
+    display: flex;
+    height: 455px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.interview {
+    margin-left: 96px;
+    padding-right: 60px;
+}
+
+.speaker {
+    text-align: end;
+}
+
+#noodle {
+    width: 490px;
+    padding-right: 150px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+/* FOOTUP */
+.footup {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+#foot_logo {
+    margin-top: 15px;
+}
+
+.submenu {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.submenu div {
+    padding-left: 0px;
+    justify-items: start;
+    align-items: start;
+}
+
+.submenu div div:nth-child(1) {
+    padding-right: 96px;
+}
+
+.submenu div div a {
+    text-decoration: none;
+}
+
+.button_foot {
+    margin-top: 20px;
+}
+
+.link {
+    padding-bottom: 5px;
+}
+
+/* FOOTSUB */
+
+.footsub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.flour {
+    align-items: baseline;
+}
+
+.follow {
+    display: flex;
+    text-align:center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#linkedin, #twitter {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+
+    /* HEADER */
+
+    header {
+        display: flex;
+        height: 54px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+
+    .header_logo {
+        width: 100px;
+        margin-left: 0px;
+    }
+
+    nav {
+        margin-right: 50px;
+        padding-right: -50px;
+    }
+
+    nav a {
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    /* TITLE */
+    .main_title {
+        margin-left: 146px;
+        margin-right: 146px;
+    }
+
+    .subtitle {
+        margin-left: 108px;
+        margin-right: 108px;
+    }
+
+    /* INTRODUCTION */
+
+    .cream {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    .years {
+        margin-left: 47px;
+        margin-right: 47px
+    }
+
+    /* NEWSLETTER */
+
+    .newsletter {
+        height: 226px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 85px;
+    }
+
+    /* PASTRIES */
+
+    .signature {
+        padding: 48px;
+    }
+    
+    .pastries {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pastries div {
+        margin-right: 0px;
+    }
+
+    .pastries div div button {
+        margin-bottom: 48px;
+    }
+
+    #noodle {
+        width: 558px;
+        padding-right: 0px;
+    }
+
+    /* INTERVIEW */
+
+    .interview_title {
+        background-color: #F4F4F4;
+        display: flex;
+        flex-direction: column;
+        height: 766px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    
+    .interview {
+        padding-right: 96px;
+    }
+    
+    .speaker {
+        margin-right: 0px;
+    }
+
+    #cream {
+        width: 654px;
+    }
+
+    /* FOOTER */
+
+    #foot_logo {
+        width: 100px;
+    }
+
+    .submenu div div:nth-child(1) {
+        padding-right: 48px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    /* HEADER */
+
+    /* HEADER */
+
+    header {
+        display: flex;
+        height: 54px;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .logo {
+        padding-left: 75px;
+    }
+
+    /* TITLE */
+
+    .main_title {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        margin-left: 112px;
+        margin-right: 112px;
+    }
+
+
+
+    /* INTRODUCTION */
+
+    #cream {
+        width: 404px;
+    }
+
+    /* NEWSLETTER */
+
+    button {
+        background-color:transparent;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #F2CB6C;
+        border-radius: 4px;
+        padding: 12px 18px;
+    }
+
+    /* INTERVIEW */
+
+    #noodle {
+        width: 308px;
+    }
+
+    /* FOOTER */
+
+    .footup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+        
+    .foot_logo {
+        display: flex;
+        align-items: end;
+    }
+
+    #foot_logo {
+        width: 100px;
+    }
+
+    .submenu div div:nth-child(1) {
+        padding-right: 48px;
+    }
+
+}

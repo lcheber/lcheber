@@ -1,0 +1,398 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F2CB6C;
+    border-radius: 4px;
+    padding: 12px 18px;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    background-color: #284B63;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+nav {
+    display: flex;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+
+/* TITLE */
+
+h1 {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* PRODUCT */
+
+.product_title {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -38px;
+    padding-left: 240px;
+}
+
+.product {
+    padding-top: 47px;
+    margin-left: 192px;
+    height: 296px;
+    width: 896px;
+    background-color: #F5F5F5;
+    margin-bottom: 28px;
+}
+
+.info_product {
+    display: flex;
+}
+
+#surprise1, #surprise2 {
+    width: 360px;
+    margin-right: 63px;
+}
+
+/* MORE */
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.more p {
+    color: grey;
+}
+
+.choice {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 810px;
+}
+
+#pastries {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 62px;
+    padding-right: 72px;
+}
+
+.price {
+    font-weight: bold;
+    color: #F2CB6C;
+}
+
+/* FOOTER */
+
+footer {
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+/* FOOTUP */
+.footup {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+#foot_logo {
+    margin-top: 15px;
+}
+
+.submenu {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.submenu div {
+    padding-left: 0px;
+    justify-items: start;
+    align-items: start;
+}
+
+.submenu div div:nth-child(1) {
+    padding-right: 96px;
+}
+
+.submenu div div a {
+    text-decoration: none;
+}
+
+.button_foot {
+    margin-top: 20px;
+}
+
+.link {
+    padding-bottom: 5px;
+}
+
+/* FOOTSUB */
+
+.footsub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.flour {
+    align-items: baseline;
+}
+
+.follow {
+    display: flex;
+    text-align:center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#linkedin, #twitter {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+
+    /* HEADER */
+
+    header {
+        display: flex;
+        background-color: #284B63;
+        height: 54px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+
+    .header_logo {
+        width: 100px;
+        margin-left: 0px;
+    }
+
+    nav {
+        margin-right: 50px;
+        padding-right: -50px;
+    }
+
+    nav a {
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    /* TITLE  */
+    
+   .titles {
+       display: flex;
+       flex-direction: column;
+       margin-top: -30px;
+       margin-bottom: 80px;
+       align-items: center;
+   }
+
+   .subtitle p {
+       text-justify: center;
+       width: 495px;
+       font-weight: bold;
+   }
+
+   /* PRODUCTS */
+
+   .product_title {
+    width: 440px;
+    padding-left: 86px;
+    }
+
+   .info_product {
+    flex-direction: column;
+    }
+
+    .product {
+        width: 675px;
+        height: 536px;
+        padding-top: 47px;
+        margin-left: 38px;
+        background-color: #F5F5F5;
+        margin-bottom: 28px;
+    }
+
+    .info_product {
+        flex-direction: column;
+        align-items: center;
+        }
+
+    #surprise1, #surprise2 {
+        width: 579px;
+        margin-right: 0px;
+    }
+    
+    /* MORE */
+
+    .more {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 130px;
+    }
+
+    .more p {
+        margin-left: 49px;
+        width: 650px;
+    }
+
+    .choice {
+        width: 500px;
+        margin-left: 178px;
+    }
+    
+    /* FOOTER */
+
+    #foot_logo {
+        width: 100px;
+    }
+
+    .submenu div div:nth-child(1) {
+        padding-right: 48px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    /* HEADER */
+
+    header {
+        display: flex;
+        background-color: #284B63;
+        height: 54px;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .logo {
+        padding-left: 75px;
+    }
+
+    /* TITLES */
+
+    .titles {
+        flex-direction: column;
+        margin-top: -30px;
+        margin-bottom: 80px;
+    }
+ 
+    .main_title h1 {
+        width: 305px;
+    }
+
+    .subtitle p {
+        text-justify: center;
+        width: 305px;
+        font-weight: bold;
+    }
+    
+    /* PRODUCTS */
+
+    .product {
+        width: 450px;
+        height: 536px;
+        margin-left: 25px;
+    }
+
+    #surprise1, #surprise2 {
+        width: 360px;
+        margin-right: 0px;
+    }
+    
+    /* MORE */
+
+    .more {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 130px;
+    }
+
+    .more p {
+        margin-left: 49px;
+        width: 438px;
+    }
+    
+    .choice {
+        width: 354px;
+        margin-left: 120px;
+    }
+
+    /* FOOTER */
+
+    .footup {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+        
+    .foot_logo {
+        display: flex;
+        align-items: end;
+    }
+
+    #foot_logo {
+        width: 100px;
+    }
+
+    .submenu div div:nth-child(1) {
+        padding-right: 48px;
+    }
+
+
+}
