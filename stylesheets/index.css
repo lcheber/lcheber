@@ -210,7 +210,7 @@ footer {
     border-radius: 50%;
 }
 
-@media screen and (min-width: 500px) and (max-width: 750px) {
+@media screen and (max-width: 750px) {
 
     /* HEADER */
 
